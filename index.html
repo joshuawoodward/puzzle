@@ -1,0 +1,20 @@
+<!doctype html>
+        <html>
+            <head>
+                <title>Realtime Puzzle</title>
+                <link href="css/puzzle.css" rel="stylesheet"/>
+                <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+            </head>
+            <body>
+                <p>Realtime puzzle using <a href="http://firebase.com">Firebase.io</a> (only tested in chrome)</p>
+                <canvas id="puzzle" width="1024" height="512"></canvas>
+                <button onclick="initImages()">Reset</button>
+
+                <form>
+                    <input type="text" required />
+                    <button type="submit">Send</button>
+                </form>
+
+            </body>
+            <script src="js/puzzle.js"></script>
+        </html>

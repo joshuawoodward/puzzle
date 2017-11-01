@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    text-align: center;
+}
+
+#puzzle {
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: #ddd;
+
+}
+
+#authorizeButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
